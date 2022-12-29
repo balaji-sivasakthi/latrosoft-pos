@@ -16,5 +16,32 @@ namespace Latrosoft_IMS.Forms
         {
             InitializeComponent();
         }
+
+        private void companyInfoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CompanyInfo frm = new CompanyInfo();
+              
+            frm.Show();
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DialogResult result = (MessageBox.Show("Do you want to Exit?", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Information));
+            if(result==DialogResult.Yes)
+            {
+                   Application.Exit();
+            }
+            else
+            {
+
+            }
+        }
+
+        private void staddToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddStaff frm = new AddStaff();
+            
+            frm.Show();
+        }
     }
 }

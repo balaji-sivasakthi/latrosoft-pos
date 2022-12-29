@@ -50,6 +50,9 @@
     <ErrorReport>prompt</ErrorReport>
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>inventory.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
     <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
@@ -68,6 +71,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\AddStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddStaff.Designer.cs">
+      <DependentUpon>AddStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CompanyInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CompanyInfo.Designer.cs">
+      <DependentUpon>CompanyInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\LoginScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +95,12 @@
     <Compile Include="Forms\MainScreen.Designer.cs">
       <DependentUpon>MainScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\ProductsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ProductsForm.Designer.cs">
+      <DependentUpon>ProductsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\StartScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,8 +109,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\AddStaff.resx">
+      <DependentUpon>AddStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CompanyInfo.resx">
+      <DependentUpon>CompanyInfo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\MainScreen.resx">
       <DependentUpon>MainScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ProductsForm.resx">
+      <DependentUpon>ProductsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\StartScreen.resx">
       <DependentUpon>StartScreen.cs</DependentUpon>
@@ -102,6 +132,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -119,6 +150,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Reports\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="inventory.ico" />
+    <None Include="Resources\Group 1000000790 %281%29.png" />
+    <None Include="Resources\Group 1000000790.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
