@@ -34,6 +34,9 @@
             this.companyInfoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.staddToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.productToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.addProductToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.searchProductToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bulkUploadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.returnsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.transactionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -86,7 +89,7 @@
             // 
             this.companyInfoToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("companyInfoToolStripMenuItem.Image")));
             this.companyInfoToolStripMenuItem.Name = "companyInfoToolStripMenuItem";
-            this.companyInfoToolStripMenuItem.Size = new System.Drawing.Size(224, 32);
+            this.companyInfoToolStripMenuItem.Size = new System.Drawing.Size(221, 32);
             this.companyInfoToolStripMenuItem.Text = "Company Info";
             this.companyInfoToolStripMenuItem.Click += new System.EventHandler(this.companyInfoToolStripMenuItem_Click);
             // 
@@ -94,16 +97,39 @@
             // 
             this.staddToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("staddToolStripMenuItem.Image")));
             this.staddToolStripMenuItem.Name = "staddToolStripMenuItem";
-            this.staddToolStripMenuItem.Size = new System.Drawing.Size(224, 32);
+            this.staddToolStripMenuItem.Size = new System.Drawing.Size(221, 32);
             this.staddToolStripMenuItem.Text = "Staff";
             this.staddToolStripMenuItem.Click += new System.EventHandler(this.staddToolStripMenuItem_Click);
             // 
             // productToolStripMenuItem
             // 
+            this.productToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.addProductToolStripMenuItem,
+            this.searchProductToolStripMenuItem,
+            this.bulkUploadToolStripMenuItem});
             this.productToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("productToolStripMenuItem.Image")));
             this.productToolStripMenuItem.Name = "productToolStripMenuItem";
             this.productToolStripMenuItem.Size = new System.Drawing.Size(115, 32);
             this.productToolStripMenuItem.Text = "Product";
+            // 
+            // addProductToolStripMenuItem
+            // 
+            this.addProductToolStripMenuItem.Name = "addProductToolStripMenuItem";
+            this.addProductToolStripMenuItem.Size = new System.Drawing.Size(232, 32);
+            this.addProductToolStripMenuItem.Text = "Product Master";
+            this.addProductToolStripMenuItem.Click += new System.EventHandler(this.addProductToolStripMenuItem_Click);
+            // 
+            // searchProductToolStripMenuItem
+            // 
+            this.searchProductToolStripMenuItem.Name = "searchProductToolStripMenuItem";
+            this.searchProductToolStripMenuItem.Size = new System.Drawing.Size(232, 32);
+            this.searchProductToolStripMenuItem.Text = "Search Product";
+            // 
+            // bulkUploadToolStripMenuItem
+            // 
+            this.bulkUploadToolStripMenuItem.Name = "bulkUploadToolStripMenuItem";
+            this.bulkUploadToolStripMenuItem.Size = new System.Drawing.Size(232, 32);
+            this.bulkUploadToolStripMenuItem.Text = "Bulk Upload";
             // 
             // salesToolStripMenuItem
             // 
@@ -238,5 +264,8 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.ToolStripMenuItem addProductToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem searchProductToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem bulkUploadToolStripMenuItem;
     }
 }

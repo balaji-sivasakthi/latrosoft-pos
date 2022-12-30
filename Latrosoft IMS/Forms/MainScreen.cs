@@ -43,5 +43,11 @@ namespace Latrosoft_IMS.Forms
             
             frm.Show();
         }
+
+        private void addProductToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ProductMaster frm = new ProductMaster();
+            frm.Show();
+        }
     }
 }

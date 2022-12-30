@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Latrosoft_IMS.Forms
 {
-    public partial class ProductsForm : Form
+    public partial class ProductMaster : Form
     {
-        public ProductsForm()
+        public ProductMaster()
         {
             InitializeComponent();
         }
