@@ -8,24 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Latrosoft_IMS.Forms
+namespace Latrosoft_POS.Forms
 {
-    public partial class CompanyInfo : Form
+    public partial class ProductMaster : Form
     {
-        public CompanyInfo()
+        public ProductMaster()
         {
             InitializeComponent();
-        }
-
-      
-        private void getCompanyInfo()
-        {
-
-        }
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-
         }
     }
 }

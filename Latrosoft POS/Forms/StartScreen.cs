@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Latrosoft_IMS.Forms
+namespace Latrosoft_POS.Forms
 {
-    public partial class AddStaff : Form
+    public partial class StartScreen : Form
     {
-        public AddStaff()
+        public StartScreen()
         {
             InitializeComponent();
         }

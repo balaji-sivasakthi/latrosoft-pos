@@ -1,4 +1,4 @@
-﻿namespace Latrosoft_IMS.Forms
+﻿namespace Latrosoft_POS.Forms
 {
     partial class MainScreen
     {
@@ -89,7 +89,7 @@
             // 
             this.companyInfoToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("companyInfoToolStripMenuItem.Image")));
             this.companyInfoToolStripMenuItem.Name = "companyInfoToolStripMenuItem";
-            this.companyInfoToolStripMenuItem.Size = new System.Drawing.Size(221, 32);
+            this.companyInfoToolStripMenuItem.Size = new System.Drawing.Size(224, 32);
             this.companyInfoToolStripMenuItem.Text = "Company Info";
             this.companyInfoToolStripMenuItem.Click += new System.EventHandler(this.companyInfoToolStripMenuItem_Click);
             // 
@@ -137,6 +137,7 @@
             this.salesToolStripMenuItem.Name = "salesToolStripMenuItem";
             this.salesToolStripMenuItem.Size = new System.Drawing.Size(90, 32);
             this.salesToolStripMenuItem.Text = "Sales";
+            this.salesToolStripMenuItem.Click += new System.EventHandler(this.salesToolStripMenuItem_Click);
             // 
             // returnsToolStripMenuItem
             // 
@@ -234,7 +235,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MainScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Latrosoft IMS | GST | POS | Analytics | Version 1.0";
+            this.Text = "Latrosoft POS";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

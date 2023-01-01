@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Latrosoft_IMS.Forms
+namespace Latrosoft_POS.Forms
 {
     public partial class MainScreen : Form
     {
@@ -47,6 +47,12 @@ namespace Latrosoft_IMS.Forms
         private void addProductToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ProductMaster frm = new ProductMaster();
+            frm.Show();
+        }
+
+        private void salesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SalesForm frm = new SalesForm();
             frm.Show();
         }
     }

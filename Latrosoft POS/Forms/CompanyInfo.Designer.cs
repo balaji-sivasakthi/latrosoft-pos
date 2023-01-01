@@ -1,4 +1,4 @@
-﻿namespace Latrosoft_IMS.Forms
+﻿namespace Latrosoft_POS.Forms
 {
     partial class CompanyInfo
     {
@@ -29,52 +29,53 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CompanyInfo));
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.name_txt = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.address_txt = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.gstin_txt = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.fax_txt = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.type_cb = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.pincode_txt = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.city_txt = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.state_txt = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.logo_pic = new System.Windows.Forms.PictureBox();
+            this.email_txt = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.country_txt = new System.Windows.Forms.TextBox();
+            this.phone_txt = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.currency_txt = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.pan_txt = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.button3 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.logo_pic)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
-            // textBox1
+            // name_txt
             // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(185, 51);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(314, 34);
-            this.textBox1.TabIndex = 0;
+            this.name_txt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.name_txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.name_txt.Location = new System.Drawing.Point(185, 51);
+            this.name_txt.Name = "name_txt";
+            this.name_txt.Size = new System.Drawing.Size(314, 34);
+            this.name_txt.TabIndex = 0;
             // 
             // label1
             // 
@@ -98,15 +99,15 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Business Address";
             // 
-            // textBox2
+            // address_txt
             // 
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(185, 140);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(314, 138);
-            this.textBox2.TabIndex = 3;
+            this.address_txt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.address_txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.address_txt.Location = new System.Drawing.Point(185, 140);
+            this.address_txt.Multiline = true;
+            this.address_txt.Name = "address_txt";
+            this.address_txt.Size = new System.Drawing.Size(314, 138);
+            this.address_txt.TabIndex = 3;
             // 
             // label4
             // 
@@ -119,14 +120,14 @@
             this.label4.TabIndex = 7;
             this.label4.Text = "GSTIN";
             // 
-            // textBox4
+            // gstin_txt
             // 
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(109, 39);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(314, 34);
-            this.textBox4.TabIndex = 10;
+            this.gstin_txt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.gstin_txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gstin_txt.Location = new System.Drawing.Point(109, 39);
+            this.gstin_txt.Name = "gstin_txt";
+            this.gstin_txt.Size = new System.Drawing.Size(314, 34);
+            this.gstin_txt.TabIndex = 10;
             // 
             // label8
             // 
@@ -139,14 +140,14 @@
             this.label8.TabIndex = 15;
             this.label8.Text = "Fax";
             // 
-            // textBox8
+            // fax_txt
             // 
-            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(109, 189);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(314, 34);
-            this.textBox8.TabIndex = 13;
+            this.fax_txt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.fax_txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fax_txt.Location = new System.Drawing.Point(109, 189);
+            this.fax_txt.Name = "fax_txt";
+            this.fax_txt.Size = new System.Drawing.Size(314, 34);
+            this.fax_txt.TabIndex = 13;
             // 
             // label9
             // 
@@ -159,14 +160,25 @@
             this.label9.TabIndex = 17;
             this.label9.Text = "Busniess Type";
             // 
-            // comboBox1
+            // type_cb
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(185, 94);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(314, 37);
-            this.comboBox1.TabIndex = 1;
+            this.type_cb.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.type_cb.FormattingEnabled = true;
+            this.type_cb.Items.AddRange(new object[] {
+            "Select Business Type",
+            "Public Limited Company",
+            "Private Limited Company",
+            "Joint-Venture Company",
+            "Partnership Firm",
+            "One Person Company",
+            "Sole Proprietorship",
+            "Branch Office",
+            "Non-Government Organization (NGO)"});
+            this.type_cb.Location = new System.Drawing.Point(185, 94);
+            this.type_cb.Name = "type_cb";
+            this.type_cb.Size = new System.Drawing.Size(314, 37);
+            this.type_cb.TabIndex = 1;
+            this.type_cb.Text = "Select Type";
             // 
             // label3
             // 
@@ -179,14 +191,14 @@
             this.label3.TabIndex = 27;
             this.label3.Text = "Zip Code";
             // 
-            // textBox3
+            // pincode_txt
             // 
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(185, 404);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(314, 30);
-            this.textBox3.TabIndex = 7;
+            this.pincode_txt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pincode_txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pincode_txt.Location = new System.Drawing.Point(185, 404);
+            this.pincode_txt.Name = "pincode_txt";
+            this.pincode_txt.Size = new System.Drawing.Size(314, 30);
+            this.pincode_txt.TabIndex = 7;
             // 
             // label10
             // 
@@ -198,14 +210,14 @@
             this.label10.TabIndex = 25;
             this.label10.Text = "City";
             // 
-            // textBox9
+            // city_txt
             // 
-            this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(185, 287);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(314, 30);
-            this.textBox9.TabIndex = 4;
+            this.city_txt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.city_txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.city_txt.Location = new System.Drawing.Point(185, 287);
+            this.city_txt.Name = "city_txt";
+            this.city_txt.Size = new System.Drawing.Size(314, 30);
+            this.city_txt.TabIndex = 4;
             // 
             // label11
             // 
@@ -218,14 +230,14 @@
             this.label11.TabIndex = 23;
             this.label11.Text = "State";
             // 
-            // textBox10
+            // state_txt
             // 
-            this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(185, 326);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(314, 30);
-            this.textBox10.TabIndex = 5;
+            this.state_txt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.state_txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.state_txt.Location = new System.Drawing.Point(185, 326);
+            this.state_txt.Name = "state_txt";
+            this.state_txt.Size = new System.Drawing.Size(314, 30);
+            this.state_txt.TabIndex = 5;
             // 
             // label12
             // 
@@ -238,46 +250,46 @@
             this.label12.TabIndex = 21;
             this.label12.Text = "Email";
             // 
-            // pictureBox1
+            // logo_pic
             // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(3, 26);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(438, 271);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 19;
-            this.pictureBox1.TabStop = false;
+            this.logo_pic.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.logo_pic.Image = ((System.Drawing.Image)(resources.GetObject("logo_pic.Image")));
+            this.logo_pic.Location = new System.Drawing.Point(3, 26);
+            this.logo_pic.Name = "logo_pic";
+            this.logo_pic.Size = new System.Drawing.Size(438, 271);
+            this.logo_pic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.logo_pic.TabIndex = 19;
+            this.logo_pic.TabStop = false;
             // 
-            // textBox6
+            // email_txt
             // 
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(185, 443);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(314, 34);
-            this.textBox6.TabIndex = 8;
+            this.email_txt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.email_txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.email_txt.Location = new System.Drawing.Point(185, 443);
+            this.email_txt.Name = "email_txt";
+            this.email_txt.Size = new System.Drawing.Size(314, 34);
+            this.email_txt.TabIndex = 8;
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.textBox11);
+            this.groupBox1.Controls.Add(this.country_txt);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.textBox7);
-            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.phone_txt);
+            this.groupBox1.Controls.Add(this.pincode_txt);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.name_txt);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.textBox6);
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.email_txt);
+            this.groupBox1.Controls.Add(this.address_txt);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.label11);
-            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.type_cb);
             this.groupBox1.Controls.Add(this.label12);
             this.groupBox1.Controls.Add(this.label10);
-            this.groupBox1.Controls.Add(this.textBox10);
-            this.groupBox1.Controls.Add(this.textBox9);
+            this.groupBox1.Controls.Add(this.state_txt);
+            this.groupBox1.Controls.Add(this.city_txt);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(23, 26);
             this.groupBox1.Name = "groupBox1";
@@ -297,23 +309,23 @@
             this.label6.TabIndex = 32;
             this.label6.Text = "Country";
             // 
-            // textBox11
+            // country_txt
             // 
-            this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox11.Location = new System.Drawing.Point(185, 365);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(314, 30);
-            this.textBox11.TabIndex = 6;
+            this.country_txt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.country_txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.country_txt.Location = new System.Drawing.Point(185, 365);
+            this.country_txt.Name = "country_txt";
+            this.country_txt.Size = new System.Drawing.Size(314, 30);
+            this.country_txt.TabIndex = 6;
             // 
-            // textBox7
+            // phone_txt
             // 
-            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(185, 486);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(314, 34);
-            this.textBox7.TabIndex = 9;
+            this.phone_txt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.phone_txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.phone_txt.Location = new System.Drawing.Point(185, 486);
+            this.phone_txt.Name = "phone_txt";
+            this.phone_txt.Size = new System.Drawing.Size(314, 34);
+            this.phone_txt.TabIndex = 9;
             // 
             // label5
             // 
@@ -328,13 +340,13 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.textBox12);
-            this.groupBox2.Controls.Add(this.textBox8);
+            this.groupBox2.Controls.Add(this.currency_txt);
+            this.groupBox2.Controls.Add(this.fax_txt);
             this.groupBox2.Controls.Add(this.label13);
             this.groupBox2.Controls.Add(this.label8);
-            this.groupBox2.Controls.Add(this.textBox5);
+            this.groupBox2.Controls.Add(this.pan_txt);
             this.groupBox2.Controls.Add(this.label7);
-            this.groupBox2.Controls.Add(this.textBox4);
+            this.groupBox2.Controls.Add(this.gstin_txt);
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(574, 26);
@@ -344,14 +356,14 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Others";
             // 
-            // textBox12
+            // currency_txt
             // 
-            this.textBox12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox12.Location = new System.Drawing.Point(109, 139);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(314, 34);
-            this.textBox12.TabIndex = 12;
+            this.currency_txt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.currency_txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.currency_txt.Location = new System.Drawing.Point(109, 139);
+            this.currency_txt.Name = "currency_txt";
+            this.currency_txt.Size = new System.Drawing.Size(314, 34);
+            this.currency_txt.TabIndex = 12;
             // 
             // label13
             // 
@@ -364,14 +376,14 @@
             this.label13.TabIndex = 11;
             this.label13.Text = "Currency";
             // 
-            // textBox5
+            // pan_txt
             // 
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(109, 89);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(314, 34);
-            this.textBox5.TabIndex = 11;
+            this.pan_txt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pan_txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pan_txt.Location = new System.Drawing.Point(109, 89);
+            this.pan_txt.Name = "pan_txt";
+            this.pan_txt.Size = new System.Drawing.Size(314, 34);
+            this.pan_txt.TabIndex = 11;
             // 
             // label7
             // 
@@ -386,7 +398,7 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.pictureBox1);
+            this.groupBox3.Controls.Add(this.logo_pic);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.Location = new System.Drawing.Point(574, 274);
             this.groupBox3.Name = "groupBox3";
@@ -401,9 +413,9 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(23, 612);
+            this.button1.Location = new System.Drawing.Point(23, 615);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(113, 51);
+            this.button1.Size = new System.Drawing.Size(113, 48);
             this.button1.TabIndex = 32;
             this.button1.Text = "Save";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -416,13 +428,31 @@
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(142, 612);
+            this.button2.Location = new System.Drawing.Point(276, 615);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(113, 51);
+            this.button2.Size = new System.Drawing.Size(113, 48);
             this.button2.TabIndex = 33;
             this.button2.Text = "Close";
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.Location = new System.Drawing.Point(142, 615);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(128, 48);
+            this.button3.TabIndex = 34;
+            this.button3.Text = "Update";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // CompanyInfo
             // 
@@ -431,6 +461,7 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.AliceBlue;
             this.ClientSize = new System.Drawing.Size(1043, 675);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox3);
@@ -439,10 +470,12 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1061, 722);
+            this.MinimizeBox = false;
             this.Name = "CompanyInfo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Company Info";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Load += new System.EventHandler(this.CompanyInfo_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.logo_pic)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -454,37 +487,38 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox name_txt;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox address_txt;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox gstin_txt;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox fax_txt;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ComboBox type_cb;
+        private System.Windows.Forms.PictureBox logo_pic;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox pincode_txt;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox city_txt;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox state_txt;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox email_txt;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox country_txt;
+        private System.Windows.Forms.TextBox phone_txt;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox currency_txt;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox pan_txt;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
     }
 }

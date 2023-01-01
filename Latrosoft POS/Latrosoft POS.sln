@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Latrosoft IMS", "Latrosoft IMS\Latrosoft IMS.csproj", "{86A40276-D04F-4384-8251-915F3603D3DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Latrosoft POS", "Latrosoft POS.csproj", "{86A40276-D04F-4384-8251-915F3603D3DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +26,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {DD9A9A07-9144-41EA-A306-96990EF06AF5}
+		SolutionGuid = {CD046353-F780-4746-A077-E817D772D207}
 	EndGlobalSection
 EndGlobal

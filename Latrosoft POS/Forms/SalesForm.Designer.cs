@@ -1,6 +1,6 @@
-﻿namespace Latrosoft_IMS.Forms
+﻿namespace Latrosoft_POS.Forms
 {
-    partial class StartScreen
+    partial class SalesForm
     {
         /// <summary>
         /// Required designer variable.
@@ -30,13 +30,18 @@
         {
             this.SuspendLayout();
             // 
-            // StartScreen
+            // SalesForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(632, 415);
-            this.Name = "StartScreen";
-            this.Text = "StartScreen";
+            this.BackColor = System.Drawing.Color.AliceBlue;
+            this.ClientSize = new System.Drawing.Size(1685, 718);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "SalesForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "SalesForm";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
 
         }
